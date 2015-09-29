@@ -25,3 +25,12 @@ C:\Users\Carlos.Ribeiro\Downloads\Calculadora De Matrizes\Calculadora De Matrize
 C:\Users\Carlos.Ribeiro\Downloads\Calculadora De Matrizes\Calculadora De Matrizes\obj\Debug\Calculadora_De_Matrizes.Form1.resources
 C:\Users\Carlos.Ribeiro\Downloads\Calculadora De Matrizes\Calculadora De Matrizes\obj\Debug\Calculadora_De_Matrizes.Properties.Resources.resources
 C:\Users\Carlos.Ribeiro\Downloads\Calculadora De Matrizes\Calculadora De Matrizes\obj\Debug\Calculadora De Matrizes.csproj.GenerateResource.Cache
+C:\Users\Carlos\Documents\GitHub\Upados no Git\Calculadora De Matrizes\Calculadora De Matrizes\bin\Debug\Calculadora De Matrizes.exe.config
+C:\Users\Carlos\Documents\GitHub\Upados no Git\Calculadora De Matrizes\Calculadora De Matrizes\obj\Debug\Calculadora De Matrizes.exe
+C:\Users\Carlos\Documents\GitHub\Upados no Git\Calculadora De Matrizes\Calculadora De Matrizes\obj\Debug\Calculadora De Matrizes.pdb
+C:\Users\Carlos\Documents\GitHub\Upados no Git\Calculadora De Matrizes\Calculadora De Matrizes\bin\Debug\Calculadora De Matrizes.exe
+C:\Users\Carlos\Documents\GitHub\Upados no Git\Calculadora De Matrizes\Calculadora De Matrizes\bin\Debug\Calculadora De Matrizes.pdb
+C:\Users\Carlos\Documents\GitHub\Upados no Git\Calculadora De Matrizes\Calculadora De Matrizes\obj\Debug\Calculadora De Matrizes.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\Upados no Git\Calculadora De Matrizes\Calculadora De Matrizes\obj\Debug\Calculadora_De_Matrizes.Form1.resources
+C:\Users\Carlos\Documents\GitHub\Upados no Git\Calculadora De Matrizes\Calculadora De Matrizes\obj\Debug\Calculadora_De_Matrizes.Properties.Resources.resources
+C:\Users\Carlos\Documents\GitHub\Upados no Git\Calculadora De Matrizes\Calculadora De Matrizes\obj\Debug\Calculadora De Matrizes.csproj.GenerateResource.Cache

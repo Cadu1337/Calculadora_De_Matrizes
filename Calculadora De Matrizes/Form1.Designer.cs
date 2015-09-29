@@ -170,7 +170,7 @@
             this.groupBox1.Size = new System.Drawing.Size(246, 232);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Matrix 1 ";
+            this.groupBox1.Text = "Matriz 1 ";
             // 
             // groupBox2
             // 
@@ -179,7 +179,7 @@
             this.groupBox2.Size = new System.Drawing.Size(236, 232);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Matrix 2 ";
+            this.groupBox2.Text = "Matriz 2 ";
             // 
             // groupBoxResultado
             // 

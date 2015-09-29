@@ -99,7 +99,7 @@ namespace Calculadora_De_Matrizes
             float[,] tempMatriz2 = new float[Matriz2.GetLength(0), Matriz2.GetLength(1)];
             if (tempMatriz1.GetLength(0) != tempMatriz2.GetLength(0) || tempMatriz1.GetLength(1) != tempMatriz2.GetLength(1))
             {
-                MessageBox.Show("Somente é possível, a soma de matrizes de mesma ordem !", "Erro - Soma Matrizes");
+                MessageBox.Show("Só é possível somar matrizes de mesma ordem !", "Erro - Soma Matrizes");
                 return;
             }
 
@@ -201,7 +201,7 @@ namespace Calculadora_De_Matrizes
             float[,] tempMatriz2 = new float[Matriz2.GetLength(0), Matriz2.GetLength(1)];
             if (tempMatriz1.GetLength(1) != tempMatriz2.GetLength(0))
             {
-                MessageBox.Show("Somente é possével a multiplicação de matrizes onde a coluna da matriz 1 e igual a linha da matriz 2  !", "Erro - Multiplicação Matrizes");
+                MessageBox.Show("Só é possível a multiplicação de matrizes onde, a coluna da matriz 1 e igual a linha da matriz 2  !", "Erro - Multiplicação Matrizes");
                 return;
             }
 
@@ -260,7 +260,6 @@ namespace Calculadora_De_Matrizes
                     float n = 0;
                     float.TryParse(Matriz1[x, y].Text, out n);
                     tempResultante[x, y] = n;
-                    //tempResultante[x, y] = Convert.ToInt32(Matriz1[x, y].Text);
                 }
             }
 
@@ -326,7 +325,6 @@ namespace Calculadora_De_Matrizes
                     float n = 0;
                     float.TryParse(Matriz1[x, y].Text, out n);
                     tempResultante[x, y] = n;
-                    //tempResultante[x, y] = Convert.ToInt32(Matriz1[x, y].Text);
                 }
             }
             if (tempResultante.GetLength(0) == 2 && tempResultante.GetLength(1) == 2)
@@ -341,7 +339,7 @@ namespace Calculadora_De_Matrizes
             }
             else
             {
-                MessageBox.Show("Nao e possivel gerar determinante !", "Error - Matriz invalida ");
+                MessageBox.Show("Não é possível gerar determinante !", "Error - Matriz invalida ");
             }
         }
         private void btnGerarInversaM1_Click(object sender, EventArgs e)
@@ -505,7 +503,7 @@ namespace Calculadora_De_Matrizes
             }
             else
             {
-                MessageBox.Show("Nao e possivel gerar determinante !", "Error - Matriz invalida ");
+                MessageBox.Show("Não é possével gerar determinante !", "Error - Matriz invalida ");
             }
         }
         private void btnGerarInversaM2_Click(object sender, EventArgs e)
@@ -698,7 +696,7 @@ namespace Calculadora_De_Matrizes
             }
             else
             {
-                MessageBox.Show("Nao e possivel gerar determinante !", "Error - Matriz invalida ");
+                MessageBox.Show("Não é possível gerar determinante !", "Error - Matriz invalida ");
             }
         }
         private void Transposta_Click(object sender, EventArgs e)
