@@ -738,6 +738,21 @@ namespace Calculadora_De_Matrizes
         }
         #endregion
 
+        private void LimparMatriz_1(object sender, EventArgs e)
+        {
+                //control.Controls.Clear(); 
+        }
+
+        private void LimparMatriz_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LimparMatriz_Resultado(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
 

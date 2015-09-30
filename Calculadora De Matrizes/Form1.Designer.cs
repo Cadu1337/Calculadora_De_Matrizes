@@ -59,6 +59,9 @@
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -223,10 +226,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(515, 281);
+            this.label7.Location = new System.Drawing.Point(516, 261);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(13, 13);
-            this.label7.TabIndex = 18;
+            this.label7.TabIndex = 25;
             this.label7.Text = "=";
             // 
             // button6
@@ -349,13 +352,46 @@
             this.button17.UseVisualStyleBackColor = true;
             this.button17.Click += new System.EventHandler(this.btnGerarOposta_Click);
             // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(70, 442);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(160, 23);
+            this.button18.TabIndex = 34;
+            this.button18.Text = "Limpar Matriz 1";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.LimparMatriz_1);
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(330, 442);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(160, 23);
+            this.button19.TabIndex = 35;
+            this.button19.Text = "Limpar Matriz 2";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.LimparMatriz_2);
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(564, 442);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(160, 23);
+            this.button20.TabIndex = 36;
+            this.button20.Text = "Limpar Matriz Resultado";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.LimparMatriz_Resultado);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(777, 456);
+            this.ClientSize = new System.Drawing.Size(777, 510);
+            this.Controls.Add(this.button20);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.button18);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button16);
@@ -427,6 +463,9 @@
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
     }
 }
 

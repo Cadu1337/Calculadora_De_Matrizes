@@ -8,6 +8,7 @@ namespace Calculadora_De_Matrizes
 {
     class Calculos
     {
+        #region Soma de matrizes
         public static float[,] SomandoMatrizes(float[,] matriz1, float[,] matriz2)
         {
             float[,] matrizResultado = new float[matriz1.GetLongLength(0), matriz1.GetLength(1)];
@@ -20,6 +21,9 @@ namespace Calculadora_De_Matrizes
             }
             return matrizResultado;
         }
+        #endregion
+
+        #region Subtração de matrizes
         public static float[,] SubtraindoMatrizes(float[,] matriz1, float[,] matriz2)
         {
             float[,] matrizResultado = new float[matriz1.GetLongLength(0), matriz1.GetLength(1)];
@@ -48,6 +52,9 @@ namespace Calculadora_De_Matrizes
             }
             return matrizResultado;
         }
+        #endregion
+
+        #region Cofatora 2x2
         public static float[,] GerarCofatora2x2(float[,] matriz1)
         {
             float[,] matrizCofatora = new float[matriz1.GetLength(0), matriz1.GetLength(1)];
@@ -79,6 +86,9 @@ namespace Calculadora_De_Matrizes
             }
             return matrizCofatora;
         }
+        #endregion
+
+        #region Cofatora 3x3
         public static float[,] GerarCofatora3x3(float[,] matriz1)
         {
             float[,] matrizCofatora = new float[matriz1.GetLength(0), matriz1.GetLength(1)];
@@ -95,6 +105,9 @@ namespace Calculadora_De_Matrizes
             }
             return matrizCofatora;
         }
+        #endregion
+
+        #region Determinante Cofatora
         private static float DeterminanteCofator(int posX, int posY, float[,] matriz)
         {
             float[,] matrizResultante = new float[2, 2];
@@ -128,6 +141,9 @@ namespace Calculadora_De_Matrizes
             float determinate = GerarDeterminante2x2(matrizResultante);
             return determinate;
         }
+        #endregion
+
+        #region matriz Inversa
         public static float[,] GerarInversa(float determinante, float[,] matriz1)
         {
             float[,] matrizInversa = new float[matriz1.GetLength(0), matriz1.GetLength(1)];
@@ -143,6 +159,9 @@ namespace Calculadora_De_Matrizes
 
             return matrizInversa;
         }
+        #endregion
+
+        #region Matriz Transposta
         public static float[,] GerarTransposta(float[,] matriz)
         {
             float[,] matrizTransposta = new float[matriz.GetLength(1), matriz.GetLength(0)];
@@ -155,6 +174,9 @@ namespace Calculadora_De_Matrizes
             }
             return matrizTransposta;
         }
+        #endregion
+
+        #region Determinante 2x2
         public static float GerarDeterminante2x2(float[,] matriz)
         {
             float diagonalPrincipal = 1;
@@ -183,6 +205,9 @@ namespace Calculadora_De_Matrizes
             determinanteFinal = diagonalPrincipal - diagonalSecundaria;
             return determinanteFinal;
         }
+        #endregion
+
+        #region Determinante 3x3
         public static float GerarDeterminante3x3(float[,] matriz)
         {
             float diagonalPrincipal = 0;
@@ -243,6 +268,9 @@ namespace Calculadora_De_Matrizes
             determinanteFinal = diagonalPrincipal - diagonalSecundaria;
             return determinanteFinal;
         }
+        #endregion
+
+        #region Matriz Oposta
         public static float[,] GerarOposta(float[,] matriz)
         {
             float[,] matrizOposta = new float[matriz.GetLength(0), matriz.GetLength(1)];
@@ -255,5 +283,6 @@ namespace Calculadora_De_Matrizes
             }
             return matrizOposta;
         }
+        #endregion 
     }
 }
