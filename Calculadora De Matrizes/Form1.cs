@@ -25,7 +25,14 @@ namespace Calculadora_De_Matrizes
         int linha1, coluna1;
         int linha2, coluna2;
 
-        #region Operações Básicas
+        /*Calculadora de matrizes desenvolvida por alunos do Colégio Estadual José Leite Lopes
+        Alunos: Carlos Eduardo Farias Ribeiro
+                Filipe Fernadez
+                José Carlos
+                Leonardo Moragas
+        */
+
+        #region Operações Básicas|Soma|Subtração|Multiplicação
         private void ADDmatriz1(object sender, EventArgs e)
         {
             groupBox1.Controls.Clear();
@@ -243,7 +250,7 @@ namespace Calculadora_De_Matrizes
         }
         #endregion
 
-        #region PrimeiraMatriz
+        #region Matriz_1
         private void btnGerarOpostaM1_Click(object sender, EventArgs e)
         {
             if (Matriz1 == null)
@@ -406,7 +413,7 @@ namespace Calculadora_De_Matrizes
         }
         #endregion
 
-        #region SegundaMatriz
+        #region Matriz_2
         private void btnGerarOpostaM2_Click(object sender, EventArgs e)
         {
             if (Matriz2 == null)
@@ -571,7 +578,7 @@ namespace Calculadora_De_Matrizes
         }
         #endregion
 
-        #region Resultado
+        #region Matriz_Resultado
         private void btnGerarInversa_Click(object sender, EventArgs e)
         {
             if (matrizResultado == null)
@@ -738,6 +745,7 @@ namespace Calculadora_De_Matrizes
         }
         #endregion
 
+        #region Limpar Grupobox
         private void LimparMatriz_1(object sender, EventArgs e)
         {
                 //control.Controls.Clear(); 
@@ -752,7 +760,7 @@ namespace Calculadora_De_Matrizes
         {
 
         }
-
+        #endregion
     }
 }
 
